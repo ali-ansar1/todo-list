@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>This is my task list</h1>
+      </header>
+      <section>
+        <div class="container">
+          <div class="control">
+            <form onsubmit="e.preventDefault()">
+              <div class="form-group">
+                <label for="task-name">Enter the Task name</label>
+                <input type="text" id="task-name" name="title" />
+                <button type="submit">Add</button>
+              </div>
+            </form>
+          </div>
+          <div class="list">
+            <p>Make breakfast</p>
+          </div>
+        </div>
+      </section>
+      <footer>All rights are reserved the Todo list<span</footer>
+    </main>
+  </body>
+</html>
