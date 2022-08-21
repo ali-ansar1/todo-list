@@ -25,7 +25,7 @@
       <section class="mt-5">
         <div class="row">
           <div class="col-md-6 col-sm-12 mx-auto">
-            <form onsubmit="e.preventDefault()">
+            <form>
               <div class="form-group">
                 <label for="task-name">Enter the Task name</label>
                 <input
@@ -45,17 +45,13 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-6 mx-auto rounded p-5">
-            <h5>1. Make break fast</h5>
-            <h5>1. Make break fast</h5>
-            <h5>1. Make break fast</h5>
-            <h5>1. Make break fast</h5>
-          </div>
+          <div id="list" class="col-6 mx-auto rounded p-5"></div>
         </div>
       </section>
       <footer class="border bg-dark text-white fixed-bottom">
-        All rights are reserved the Todo list<span
+        All rights are reserved the Todo list
       </footer>
     </main>
+    <script src="index.js"></script>
   </body>
 </html>
